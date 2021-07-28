@@ -161,10 +161,10 @@ $portfolioIMG = get_stylesheet_directory_uri() . '/assets/img/';
     </div>
     <div class="flex-one">
       <div class="works-item">
-        <a href="https://www.trade-tech-note.work/">
+        <a href="https://github.com/xingxingst/WP-Profile-Page-Templete">
             <div class="fa fa-github" aria-hidden="true"></div>
         </a>
-        <h3 class="work-title"><a href="https://github.com/xingxingst/">ポートフォリオ</a></h3>
+        <h3 class="work-title"><a href="https://github.com/xingxingst/WP-Profile-Page-Templete">ポートフォリオ</a></h3>
         <p>自分のこのポートフォリオサイトのコードを掲載。</p>
       </div>
     </div>
