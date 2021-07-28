@@ -1,0 +1,720 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "SourceHanCodeJP-Regular";
+  src: local("SourceHanCodeJP-Regular");
+}
+@font-face {
+  font-family: "M+ 1m";
+  src: local("M+ 1m");
+}
+@font-face {
+  font-family: "Rounded M+ 1m regular";
+  src: local("Rounded M+ 1m regular");
+}
+@font-face {
+  font-family: "Rounded M+ 2m regular";
+  src: local("Rounded M+ 2m regular");
+}
+@font-face {
+  font-family: "Rounded Mgen+ 1m regular";
+  src: local("Rounded Mgen+ 1m regular");
+}
+@font-face {
+  font-family: "Rounded Mgen+ 2m regular";
+  src: local("Rounded Mgen+ 2m regular");
+}
+@font-face {
+  font-family: "Yutapon coding Regular";
+  src: local("Yutapon coding Regular");
+}
+@font-face {
+  font-family: "Myrica M";
+  src: local("Myrica M");
+}
+@font-face {
+  font-family: "MyricaM M";
+  src: local("MyricaM M");
+}
+@font-face {
+  font-family: "Ricty Diminished Discord";
+  src: local("Ricty Diminished Discord");
+}
+@font-face {
+  font-family: "Ricty Diminished";
+  src: local("Ricty Diminished");
+}
+@font-face {
+  font-family: "Migu 1M";
+  src: local("Migu 1M");
+}
+@font-face {
+  font-family: "Migu 2M";
+  src: local("Migu 2M");
+}
+@font-face {
+  font-family: "VL ゴシック";
+  src: local("VL ゴシック");
+}
+@font-face {
+  font-family: "MeiryoKe_Gothic";
+  src: local("MeiryoKe_Gothic");
+}
+
+
+
+body{
+  background-color:initial;
+  font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "ヒラギノ角ゴ Pro W3", 'メイリオ', 'Meiryo', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+.site-logo-image {
+  object-fit: cover;
+  width: 300px;
+  height: 70px;
+}
+
+.header-in{
+  flex-direction: row;
+  justify-content:initial;
+  align-items: center;
+}
+
+
+.logo{
+  text-align: left;
+}
+
+
+#navi{
+  margin-left: auto;
+}
+
+#navi-in{
+  width: 650px;
+  margin: initial;
+  font-size: 1.17em;
+}
+
+#navi-in > ul li {
+  display: block;
+  width: 130px;
+  height: 60px;
+  position: relative;
+  border-bottom: initial;
+}
+
+
+.console-font,.hamburger-top{
+  font-family:  Consolas,"SourceHanCodeJP-Regular",
+  "Source Code Pro",
+  "M+ 1m",
+  "Rounded M+ 1m regular",
+  "Rounded M+ 2m regular",
+  "Rounded Mgen+ 1m regular",
+  "Rounded Mgen+ 2m regular",
+  "Yutapon coding Regular",
+  "Myrica M",
+  "MyricaM M",
+  "Ricty Diminished Discord",
+  "Ricty Diminished",
+  "Migu 1M",
+  "Migu 2M",
+  "VL ゴシック",
+  "MeiryoKe_Gothic","Monaco","Roboto Mono","Courier New",Courier,monospace;
+}
+
+
+#menu-portfolio .item-label,.menu-portfolio-sp-container li a{
+  font-family:  Consolas,"SourceHanCodeJP-Regular",
+  "Source Code Pro",
+  "M+ 1m",
+  "Rounded M+ 1m regular",
+  "Rounded M+ 2m regular",
+  "Rounded Mgen+ 1m regular",
+  "Rounded Mgen+ 2m regular",
+  "Yutapon coding Regular",
+  "Myrica M",
+  "MyricaM M",
+  "Ricty Diminished Discord",
+  "Ricty Diminished",
+  "Migu 1M",
+  "Migu 2M",
+  "VL ゴシック",
+  "MeiryoKe_Gothic","Roboto Mono","Courier New",Courier,monospace;
+  font-size: 1.17em;
+}
+
+.content-in{
+  padding: 60px 14px;
+}
+
+#skills h3 {
+    font-family:  Consolas, "SourceHanCodeJP-Regular",
+    "Source Code Pro",
+    "M+ 1m",
+    "Rounded M+ 1m regular",
+    "Rounded M+ 2m regular",
+    "Rounded Mgen+ 1m regular",
+    "Rounded Mgen+ 2m regular",
+    "Yutapon coding Regular",
+    "Myrica M",
+    "MyricaM M",
+    "Ricty Diminished Discord",
+    "Ricty Diminished",
+    "Migu 1M",
+    "Migu 2M",
+    "VL ゴシック",
+    "MeiryoKe_Gothic","Roboto Mono","Courier New",Courier,monospace;
+    font-weight: 100;
+    text-align: center;
+}
+
+#skills h3 .fa{
+  margin-right:1em;
+  margin-left: -2em;
+}
+
+
+#top-background-image {
+  width: 100%;
+  background-image: url(assets/img/vintage-2168174_1920.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center 10%;
+  height: 600px;
+  text-align: center;
+}
+
+#top-background-image p{
+  margin: unset;
+  color: #FFF;
+  font-size: 30px;
+}
+.pf-top-txt {
+  width: auto;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 240px;
+  color: #FFF;
+  /* display: inline-block; */
+}
+
+.glitch {
+  font-size: 80px;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+.content-title{
+  width: 100%;
+  letter-spacing: 0.5px;
+  margin-bottom: 40px;
+  font-family:  Consolas,"SourceHanCodeJP-Regular",
+  "Source Code Pro",
+  "M+ 1m",
+  "Rounded M+ 1m regular",
+  "Rounded M+ 2m regular",
+  "Rounded Mgen+ 1m regular",
+  "Rounded Mgen+ 2m regular",
+  "Yutapon coding Regular",
+  "Myrica M",
+  "MyricaM M",
+  "Ricty Diminished Discord",
+  "Ricty Diminished",
+  "Migu 1M",
+  "Migu 2M",
+  "VL ゴシック",
+  "MeiryoKe_Gothic","Monaco","Roboto Mono","Courier New",Courier,monospace;
+  font-weight: 100;
+}
+
+.content-title::before{
+  font:normal normal normal 1.5em/1 FontAwesome;
+  margin-right: 10px;
+  vertical-align: middle;
+
+}
+
+
+.main-image a[href="#profile"]{
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-image a[href="#profile"]:hover{
+  opacity: 0.7;
+}
+
+.profile-image{
+  width: 24%;
+  text-align: center;
+}
+
+.entry-content{
+  width: 76%;
+  padding-left: 14px;
+}
+
+
+#profile .content-title::before{
+  content:"\f007";
+}
+
+.profile-image img{
+  border-radius: 45%;
+  max-height: 270px;
+}
+
+#skills{
+  background-color:#f2f3f6;
+}
+
+#skills .content-title::before{
+  content:"\f0eb";
+}
+
+.column-half{
+  width: 47%;
+  margin-bottom: 2em;
+}
+
+#skills .column-half {
+    border: double 10px;
+    padding: 1.2em;
+    border-radius: 10%;
+    background-color: #FFF;
+}
+
+
+
+.table {
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.table-borderless th,
+.table-borderless td,
+.table-borderless thead th,
+.table-borderless tbody + tbody {
+  border: 0;
+  color: unset;
+  background-color: #fff;
+}
+
+
+th[scope=row]{
+  font-weight: 500;
+  font-family:  Consolas,"SourceHanCodeJP-Regular",
+  "Source Code Pro",
+  "M+ 1m",
+  "Rounded M+ 1m regular",
+  "Rounded M+ 2m regular",
+  "Rounded Mgen+ 1m regular",
+  "Rounded Mgen+ 2m regular",
+  "Yutapon coding Regular",
+  "Myrica M",
+  "MyricaM M",
+  "Ricty Diminished Discord",
+  "Ricty Diminished",
+  "Migu 1M",
+  "Migu 2M",
+  "VL ゴシック",
+  "MeiryoKe_Gothic","Monaco","Roboto Mono", "Courier New",Courier,monospace;
+}
+
+#works{
+  background-color:#eef7f9;
+}
+
+#works .content-title::before{
+  content:"\f0b1";
+}
+
+.flex-one{
+  flex: 1;
+}
+
+.work-title{
+  text-align: center;
+}
+
+
+#works a, #contact a{
+  text-decoration: none;
+  color: #333;
+  letter-spacing: 0.5px;
+  /* text-align: center; */
+}
+
+#works a:hover, #contact a{
+  opacity: 0.7;
+}
+
+.works-item{
+  width: 92%;
+  margin: 0 auto;
+}
+
+#archives{
+  background-color:#b5e0cd;
+  position: relative;
+}
+
+#archives:before {
+  content: "";
+  position: absolute;
+  top: -120px;
+  left: 50%;
+  margin-left: -60px;
+  border: 60px solid transparent;
+  border-bottom: 60px solid #b5e0cd;
+  z-index: 0;
+}
+
+#archives .content-title::before{
+  content:"\f09e";
+}
+
+#archives .navi-entry-card{
+  max-width: 290px;
+  height:187px;
+}
+
+#contact{
+  background-color:aliceblue
+}
+
+#archives .content-title,
+#contact .content-title{
+  width: 100%;
+  text-align: center;
+}
+
+#contact .content-title::before{
+  content:"\f0e0";
+}
+.a-wrap{
+  display: inline-block;
+}
+.contact-content{
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+
+#contact img{
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.narrow-contet-in{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+#contact .content-in{
+  flex-wrap: nowrap;
+}
+
+
+#contact .flex-one p{
+  text-align: center;
+}
+
+#contact #blogicon{
+  width: 65px;
+}
+
+@media screen and (max-width: 1260px){
+  #navi-in.wrap {
+    width: auto;
+  }
+  .content-in {
+    display: flex;
+  }
+
+  #profile{
+    align-items: center;
+  }
+
+
+  .widget-entry-cards.card-large-image .a-wrap{
+    width: 33%;
+  }
+
+  #archives .navi-entry-card{
+    max-width:initial;
+  }
+}
+
+.pcnone{
+  display: none;
+}
+
+@media screen and (max-width: 1024px){
+  .widget-entry-cards.card-large-image .a-wrap{
+    width: 49%;
+  }
+}
+
+@media screen and (max-width: 834px){
+  #navi .navi-in > .menu-mobile {
+    display: flex;
+  }
+  .pcnone{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 480px){
+  #skills .column-half{
+    width: 100%;
+  }
+
+  #works .flex-one{
+    flex: auto;
+  }
+  .works-item{
+    width: unset;
+  }
+
+
+  .glitch{
+    font-size: 60px;
+    line-height: 1em;
+  }
+
+  .profile-image,.entry-content{
+    width: 100%;
+  }
+
+  .tagline{ margin: 0;}
+  
+}
+
+.flex-one .dashicons-admin-plugins:before,
+.flex-one .fa-github:before
+{
+    font-size: 240px;
+    text-align: center;
+}
+
+.flex-one .dashicons-admin-plugins,
+.flex-one .fa-github
+{
+    margin: 0 auto;
+    width: 240px;
+    height: 295px;
+    display: block;
+}
+
+.flex-one .fa-github{
+  text-align: center;
+}
+
+
+#s-navi{
+  flex: 1;
+}
+
+#nav-drawer {
+  text-align: right;
+  margin-right: 5%;
+}
+
+/*チェックボックス等は非表示に*/
+.nav-unshown {
+  display: none;
+}
+
+/*アイコンのスペース*/
+#nav-open {
+  display: inline-block;
+  width: 30px;
+  height: 22px;
+}
+
+/*ハンバーガーアイコンをCSSだけで表現*/
+#nav-open span, #nav-open span:before, #nav-open span:after {
+  position: absolute;
+  height: 3px;/*線の太さ*/
+  width: 25px;/*長さ*/
+  border-radius: 3px;
+  background: #1f3c6a;/*線の色*/
+  display: block;
+  content: '';
+  cursor: pointer;
+}
+
+#nav-open span:before {
+  bottom: -8px;
+}
+
+#nav-open span:after {
+  bottom: -16px;
+}
+
+/*閉じる用の薄黒カバー*/
+#nav-close {
+  display: none;/*はじめは隠しておく*/
+  position: fixed;
+  z-index: 99;
+  top: 0;/*全体に広がるように*/
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0;
+  transition: .3s ease-in-out;
+}
+
+.menu-portfolio-sp-container{
+  text-align:center;
+}
+
+.menu-portfolio-sp-container ul{
+    padding: 0;
+}
+
+.menu-portfolio-sp-container li{
+ list-style-type: none;
+ margin:1em 0;
+}
+
+.menu-portfolio-sp-container li a{
+color:#1f3c6a;
+text-decoration: none;
+}
+/*中身*/
+#nav-content {
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9999;/*最前面に*/
+  width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
+  max-width: 14em;/*最大幅（調整してください）*/
+  height: 100%;
+  background: #fff;/*背景色*/
+  transition: .3s ease-in-out;/*滑らかに表示*/
+  -webkit-transform: translateX(105%);
+  transform: translateX(105%);/*左に隠しておく*/
+}
+
+
+/*チェックが入ったらもろもろ表示*/
+#nav-input:checked~#nav-close {
+  display: block;/*カバーを表示*/
+  opacity: .5;
+}
+
+#nav-input:checked~#nav-content {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);/*中身を表示（左へスライド）*/
+  box-shadow: 6px 0 25px rgba(0, 0, 0, .15);
+  z-index: 9998;
+}
+
+/*ハンバーガーメニューの中身もろもろ*/
+.hamburger-top {
+  position: relative;
+  background-color: #3399CC;
+  text-align: center;
+  padding: 15px 15px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #fff;
+}
+
+.humburger-top .cancel{
+    display: inline-block;
+    padding: 10px 3px;
+}
+
+.cancel {
+  display: inline-block;
+  position: absolute;
+  cursor: pointer;
+  top: 15px;
+  right: 20px;
+  width: 5px;
+  height: 30px;
+  background: #fff;
+  transform: rotate(45deg);
+  z-index: 99;
+}
+
+.cancel:before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -13px;
+  width: 31px;
+  height: 5px;
+  margin-top: -3px;
+  background: #fff;
+}
+
+/*中身次第で工夫してください ここから*/
+.top-info{
+  padding: 10px 15px;
+}
+/*中身次第で工夫してください ここまで*/
+
+.category {
+  background-color: #58a9ef;
+  font-size: 22px;
+  padding: 7px 10px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.menu-container{
+  padding: 5px 10px;
+}
+.menu-container li {
+  float: none;
+  font-size: 15px;
+  padding: 10px 15px 10px 15px;
+  list-style: none;
+  text-align: left;
+  border-bottom: dashed 1px #999;
+}
+
+.menu-container li:last-child {
+  border: none;
+}
+
+.menu-container li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.menu-container a:before {
+  font-family: normal normal normal 14px/1 FontAwesome;
+  content: "\f07b";
+  font-weight: 900;
+  color: #58a9ef;/*アイコン色*/
+  margin-right: 5px;
+}
+
+.menu-container .child a:before{
+  font-family: normal normal normal 14px/1 FontAwesome;
+  content: "\f00c";
+  font-weight: 900;
+  color: #58a9ef;
+  margin-right: 5px;
+  margin-left: 15px;
+}
