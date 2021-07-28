@@ -1,4 +1,4 @@
-# WP-Profile-Page
+# WP-Profile-Page-Templete
 以下のプロフィール＆ポートフォリオページで使用している自ら作成したWordPress固定ページテンプレートのコードになります。
 https://www.trade-tech-note.work/about-xingxing/
 
