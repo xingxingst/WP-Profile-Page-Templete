@@ -1,0 +1,130 @@
+$gold: #BC7800;
+$gold2: #B29059;
+$red: #DB4532;
+$textRed: #D50007;
+$white: #fff;
+$black: #000;
+$grey: #EFEFEF;
+$link-color: #2680EB;
+$font-family-sans-serif: 'Noto Sans JP', "Yu Gothic Medium", "ヒラギノ角ゴ Pro W3", "游ゴシック Medium", YuGothic, "游ゴシック体", "メイリオ", sans-serif;
+$fontawesome: "Font Awesome 5 Free";
+
+
+// Media Query
+$breakpoints: (
+  "sm": "screen and (max-width: 415px)",
+  "md": "screen and (max-width: 769px)",
+  "lg": "screen and (max-width: 1025px)",
+  "xl": "screen and (min-width: 1439px)",
+) !default;
+
+@mixin mq($breakpoint) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+      @content;
+  }
+}
+
+@mixin onlyTablet() {
+  @media #{map-get($breakpoints, md)} and (min-width:416px){
+      @content;
+  }
+}
+
+
+// color
+.u-bg-grey {
+  background-color: $grey;
+}
+
+.u-color-white {
+  color: #fff;
+}
+
+.u-color-red {
+  color: #DC000C;
+}
+
+.u-link-gold {
+  color: $gold;
+}
+
+.u-link-blue {
+  color: $link-color;
+}
+
+// category color
+.u-category-news {
+  background-color: #909090;
+}
+
+.u-category-event {
+  background-color: $red;
+}
+
+.u-cateogry-products {
+  background-color: #000;
+}
+
+.u-category-letter {
+  background-color: $gold2;
+}
+
+// Margin
+@for $i from 0 through 12 {
+  .u-mt-#{$i * 5} {
+    margin-top: #{$i * 5}px;
+  }
+  .u-mb-#{$i * 5} {
+    margin-bottom: #{$i * 5}px;
+  }
+  .u-ml-#{$i * 5} {
+    margin-left: #{$i * 5}px;
+  }
+  .u-mr-#{$i * 5} {
+    margin-right: #{$i * 5}px;
+  }
+  .u-m-#{$i * 5} {
+    margin: #{$i * 5}px;
+  }
+}
+
+.u-ml-auto {
+  margin-left: auto;
+}
+.u-mr-auto {
+  margin-right: auto;
+}
+
+// Padding
+@for $i from 0 through 12 {
+  .u-pt-#{$i * 5} {
+    padding-top: #{$i * 5}px;
+  }
+  .u-pb-#{$i * 5} {
+    padding-bottom: #{$i * 5}px;
+  }
+  .u-pl-#{$i * 5} {
+    padding-left: #{$i * 5}px;
+  }
+  .u-pr-#{$i * 5} {
+    padding-right: #{$i * 5}px;
+  }
+  .u-p-#{$i * 5} {
+    padding: #{$i * 5}px;
+  }
+}
+
+// tel link
+
+  @media (min-width: 767px) {
+    a[href*="tel:"] {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  position: relative;
+}

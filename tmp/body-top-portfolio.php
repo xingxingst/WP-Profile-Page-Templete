@@ -63,7 +63,7 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
     <div id="top-background-image" class="main-image">
 			<div class="pf-top-txt">
 				<h1 class="glitch console-font" data-text="About XingXing">About XingXing</h1>
-        <p class="console-font">Web Programmer</p>
+        <p class="console-font sub-title">Web Programmer</p>
 			</div>
       <p><a href="#profile">▼</a></p>
       <!-- <i class="fa fa-caret-down fa-5x" aria-hidden="true"></i> -->

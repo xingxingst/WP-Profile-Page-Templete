@@ -1,0 +1,29 @@
+{
+  "name": "tecnote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:server": "browser-sync start --proxy tech-x-note.test:80 -w **/*.php **/*.css js/*.js",
+    "compile:css2cssprefix": "postcss assets/css/style.css -u autoprefixer -o assets/css/style.css",
+    "compile:scss2css": "node-sass assets/scss/style.scss --importer node_modules/node-sass-globbing/index.js assets/css/style.css --output-style expanded --source-map assets/css/",
+    "compile:scss2cssprefix": "run-s compile:scss2css compile:css2cssprefix",
+    "watch:scss2cssprefix": "chokidar \"assets/scss/\" --command \"npm run compile:scss2cssprefix\" --initial",
+    "watch:all": "run-p watch:scss2cssprefix start:server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "browser-sync": "^2.27.5",
+    "chokidar-cli": "^3.0.0",
+    "node-sass": "^6.0.1",
+    "node-sass-globbing": "^0.0.23",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}

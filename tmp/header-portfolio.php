@@ -2,6 +2,7 @@
 /**
  * Cocoon WordPress Child Theme
  * @author: xingxing
+ * @link: https://wp-cocoon.com/
  * @license: http://www.gnu.org/licenses/gpl-2.0.html GPL v2 or later
  */
 if ( !defined( 'ABSPATH' ) ) exit; ?>
@@ -31,7 +32,7 @@ if ($domains) {
   echo '<!-- preconnect dns-prefetch -->'.PHP_EOL;
 }
 foreach ($domains as $domain): ?>
-<link rel="preconnect dns-prefetch" href="//<?php echo $domain; ?>">
+<link rel="preconnect dns-prefetch" href="//<?php echo esc_html($domain); ?>">
 <?php endforeach; ?>
 <?php //Google Tag Manager
 if (is_analytics() && $tracking_id = get_google_tag_manager_tracking_id()): ?>
@@ -71,7 +72,11 @@ get_template_part('tmp/head-pwa'); ?>
 
 <?php //ヘッドタグ内挿入用のユーザー用テンプレート
 get_template_part('tmp-user/head-insert'); ?>
-<link rel="stylesheet" id="portfolio-css" href="<?=get_stylesheet_directory_uri()?>/portfolio.css" media="all">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500&display=swap" rel="stylesheet" as="style" media="all" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="stylesheet" id="portfolio-css" href="<?=get_stylesheet_directory_uri()?>/assets/css/style.css" media="all">
+<script src="https://cdn.jsdelivr.net/gh/mntn-dev/t.js/t.min.js"></script>
 </head>
 
 <body <?php body_class(); ?> itemscope itemtype="https://schema.org/WebPage" data-barba="wrapper">

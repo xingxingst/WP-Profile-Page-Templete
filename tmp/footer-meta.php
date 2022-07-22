@@ -27,7 +27,7 @@ $name = $name ? $name :  get_bloginfo('name');
   <div class="author-info">
     <a href="<?php echo get_the_author_twitter_url() ; ?>" class="author-link">
       <span class="post-author vcard author" itemprop="editor author creator copyrightHolder" itemscope itemtype="https://schema.org/Person">
-        <span class="author-name fn" itemprop="name"><?php echo $name; ?></span>
+        <span class="author-name fn" itemprop="name"><?php echo esc_html($name) ; ?></span>
       </span>
     </a>
   </div>
